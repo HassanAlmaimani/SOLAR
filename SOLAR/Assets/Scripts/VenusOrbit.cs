@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MercuryOrbit : MonoBehaviour
+public class VenusOrbit : MonoBehaviour
 {
     [Tooltip("Distance from the Sun")]
     public float radius = 5f;
