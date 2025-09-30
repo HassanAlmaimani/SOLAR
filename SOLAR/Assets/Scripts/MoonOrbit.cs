@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MercuryOrbit : MonoBehaviour
+public class MoonOrbit : MonoBehaviour
 {
-    [Tooltip("Distance from the Sun")]
-    public float radius = 3f;
+    [Tooltip("Distance from the Earth")]
+    public float radius = 2f;
 
     [Tooltip("Degrees per second")]
     public float speed = 10f;
 
-    public Transform sun;          // drag the Sun here in the Inspector
+    public Transform Earth;          // drag the Earth here in the Inspector
 
     private float angle;
 
     void Start()
     {
-        if (sun == null)           // safety: auto-find if you forgot to drag
-            sun = GameObject.FindWithTag("Sun").transform;
+        if (Earth == null)           // safety: auto-find if you forgot to drag
+            Earth = GameObject.FindWithTag("Earth").transform;
     }
 
     void Update()
@@ -31,6 +31,6 @@ public class MercuryOrbit : MonoBehaviour
             0,
             Mathf.Sin(rad) * radius);
 
-        transform.position = sun.position + offset;   // <-- relative orbit
+        transform.position = Earth.position + offset;   // <-- relative orbit
     }
 }
