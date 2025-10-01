@@ -1,7 +1,6 @@
 # SOLAR: The AR Solar System 🪐
 
-A lightweight Android app that drops our solar system on your desk in augmented reality.  
-Built with Unity + AR Foundation + ARCore.
+### A lightweight Android app that conveniently brings our solar system into your room in augmented reality.  
 
 <img width="1261" height="720" alt="image" src="https://github.com/user-attachments/assets/e104faa0-61de-4bdc-a79c-d0150c1a4eaf" />
 
