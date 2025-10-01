@@ -3,9 +3,7 @@
 A lightweight Android app that drops our solar system on your desk in augmented reality.  
 Built with Unity + AR Foundation + ARCore.
 
-(<img width="1261" height="720" alt="image" src="https://github.com/user-attachments/assets/e104faa0-61de-4bdc-a79c-d0150c1a4eaf" />
-|:--:|
-| *Tap a planet to see its name and a one-line fact.* |
+<img width="1261" height="720" alt="image" src="https://github.com/user-attachments/assets/e104faa0-61de-4bdc-a79c-d0150c1a4eaf" />
 
 ## Features
 - Realistic relative sizes (distances are compressed so it fits in your room)  
@@ -29,3 +27,12 @@ Built with Unity + AR Foundation + ARCore.
 
 ## Folder snapshot
 <img width="599" height="722" alt="image" src="https://github.com/user-attachments/assets/d4a6051f-cc78-4c33-8e48-91056681289c" />
+
+## Customising
+- **Distance & speed**: tweak the public variables on the `Planet Orbit` script components in each planet  
+
+## License
+MIT – do whatever you want, just don’t blame me if Pluto is still not a planet.
+
+## Credits
+- Planet 3D Assets by [Evgenii Nikolskii](https://assetstore.unity.com/publishers/21782)
